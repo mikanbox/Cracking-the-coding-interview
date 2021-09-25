@@ -12,6 +12,7 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "stack": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "queue": "cpp"
     }
 }

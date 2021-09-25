@@ -40,9 +40,7 @@ void pretty_print_graph(vector<vector<int> > *graph) {
 
 
 bool search(vector<vector<int> > *graph, int s, int t) {
-
     vector<bool> isArrived((*graph).size(),false);
-
     stack<int> nodes;
     nodes.push(s);
 
@@ -60,8 +58,6 @@ bool search(vector<vector<int> > *graph, int s, int t) {
         }
         cerr << "n : " <<target << endl;
     }
-    
-
     return false;
 }
 
@@ -74,7 +70,6 @@ int main(void) {
 
     int s,t;
     cin >> s >> t;
-
     graph.resize(n,vector<int>());
 
     for(int i = 0; i < m; i++) {
