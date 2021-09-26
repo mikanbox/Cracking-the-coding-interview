@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// g++ "-std=c++14" 4-1.cpp 
+// g++ -std=c++14 4-1.cpp 
 // 
 
 // sample
