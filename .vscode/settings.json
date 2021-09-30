@@ -16,6 +16,7 @@
         "queue": "cpp",
         "iosfwd": "cpp",
         "iterator": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "ios": "cpp"
     }
 }
