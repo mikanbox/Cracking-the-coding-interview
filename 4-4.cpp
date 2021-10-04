@@ -49,6 +49,7 @@ void prettyTreePrint(struct Node *tree) {
     cout << endl;
 }
 
+
 bool isTreeBalanced(struct Node *tree, int &shallowestLevel, int &deepestLevel, int level) {
     bool res = true;
     cerr << "err : " << tree->value << endl;
@@ -57,7 +58,6 @@ bool isTreeBalanced(struct Node *tree, int &shallowestLevel, int &deepestLevel, 
         res = isTreeBalanced(tree->left,shallowestLevel,deepestLevel,level + 1);
     if (tree->right)
         res = isTreeBalanced(tree->right,shallowestLevel,deepestLevel,level + 1);
-    
 
     if (tree->left == NULL || tree->right==NULL) {
         if (level > deepestLevel) 
