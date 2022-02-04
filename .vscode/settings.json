@@ -17,6 +17,9 @@
         "iosfwd": "cpp",
         "iterator": "cpp",
         "list": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "algorithm": "cpp",
+        "locale": "cpp",
+        "utility": "cpp"
     }
 }
